@@ -15,6 +15,8 @@ Change the *INSERT_API_KEY_HERE* to your newly obtained API key.
 
 ## Start the app
 
+Firstly run the `yarn install` command (if you are using **yarn**), to resolve the needed dependencies, or if you are using **npm**, the `npm install`.
+
 To start the app, simply run `yarn start` (if you are using **yarn**), or `npm start` (if you are using **npm**). This starts a local web development server, which enables hot-reload and a lot of useful features.
 
 ## Building the app
