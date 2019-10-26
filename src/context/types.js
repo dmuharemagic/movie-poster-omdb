@@ -1,0 +1,7 @@
+export const SEARCH_POSTERS = 'SEARCH_POSTERS';
+export const SEARCH_POSTERS_ERROR = 'SEARCH_POSTERS_ERROR';
+export const GET_POSTER = 'GET_POSTER';
+export const CLEAR_POSTERS = 'CLEAR_POSTERS';
+export const SET_LOADING = 'SET_LOADING';
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
