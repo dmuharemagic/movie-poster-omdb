@@ -1,6 +1,13 @@
+
 # MoviePoster
 
 This app was developed to query the already existing ***OMDB*** (*The Open Movie Database*) ***API***, which is a *RESTful web service* to obtain movie information. It was try out the functional component approach of the **React framework** and to obtain some more knowledge on *React Hooks* and the *Context API*.
+
+Some screenshots:<br/>
+
+![Front page](https://i.imgur.com/QGHtwnO.jpg)
+
+![Details page](https://i.imgur.com/1NM6fpZ.png)
 
 ## Setup
 
