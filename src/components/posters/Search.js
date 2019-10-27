@@ -36,7 +36,7 @@ const Search = () => {
           />
         </div>
         <div className='control'>
-          <button className='button is-dark'>Search</button>
+          <button className={`button is-dark ${postersContext.loading && 'is-loading'}`}>Search</button>
         </div>
       </form>
       {postersContext.posters.length > 0 && (
