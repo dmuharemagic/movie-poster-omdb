@@ -9,7 +9,7 @@ const Alert = () => {
   return (
     alerts.length > 0 &&
     alerts.map(alert => (
-      <div className={`notification is-${alert.type} has-margin-top-2`}>
+      <div key={alert.id} className={`notification is-${alert.type} has-margin-top-2`}>
         <p>{alert.msg}</p>
       </div>
     ))
