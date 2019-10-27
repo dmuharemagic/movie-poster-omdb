@@ -20,8 +20,6 @@ const Search = () => {
     }
   };
 
-  const onChange = e => setText(e.target.value);
-
   return (
     <Fragment>
       <form className='field has-addons has-margin-top-2' onSubmit={onSubmit}>
@@ -32,7 +30,7 @@ const Search = () => {
             name='text'
             placeholder='Search posters...'
             value={text}
-            onChange={onChange}
+            onChange={event => setText(event.target.value)}
           />
         </div>
         <div className='control'>
