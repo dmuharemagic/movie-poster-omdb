@@ -7,9 +7,8 @@ const PosterItem = ({ poster: { Poster, imdbID } }) => {
     <Link to={`/posters/${imdbID}`}>
       <div className='card'>
         <div className='card-image'>
-          <figure className='image'></figure>
           <figure className='image'>
-            <img src={Poster} alt='' />
+            <img src={Poster === 'N/A' ? '/images/placeholder.png' : Poster} alt='' />
           </figure>
         </div>
       </div>

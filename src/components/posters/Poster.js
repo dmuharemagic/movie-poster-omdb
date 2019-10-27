@@ -56,7 +56,7 @@ const Poster = ({ match }) => {
                     {Runtime}
                   </div>
                 </div>
-                <div className='column is-narrow'>
+                <div className='column'>
                   <div>
                     <p class='subtitle is-6'>
                       <strong>Director:</strong>{' '}
