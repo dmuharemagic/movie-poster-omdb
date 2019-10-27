@@ -11,7 +11,7 @@ When you obtain a new API key, change the environment variable, namely:
     REACT_APP_OMDB_API_KEY=INSERT_API_KEY_HERE
 Change the *INSERT_API_KEY_HERE* to your newly obtained API key.
 
-> **NOTE:** Do not forget to rename the ***.env.example*** to ***.env.local*** in order to be able to access the API key through the React.app
+> **NOTE:** Do not forget to rename the ***.env.example*** to ***.env.local*** in order to be able to access the API key through the React application.
 
 ## Start the app
 
