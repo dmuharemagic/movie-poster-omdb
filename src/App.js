@@ -21,7 +21,6 @@ const App = () => {
         <Router>
           <main>
             <Navbar title='MoviePoster' />
-
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/about' component={About} />

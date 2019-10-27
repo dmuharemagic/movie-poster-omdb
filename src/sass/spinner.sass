@@ -1,0 +1,17 @@
+.spinner
+	&:before
+		content: ''
+		box-sizing: border-box
+		height: 60px
+		width: 60px
+		margin-left: auto
+		margin-right: auto
+		margin-top: 50px
+		display: block
+		border: 3px solid lightgray
+		border-top-color: #f9a825
+		border-radius: 50%
+		animation: spinner 0.7s linear infinite
+@keyframes spinner
+	to
+		transform: rotate(360deg)
